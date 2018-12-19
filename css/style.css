@@ -1,0 +1,58 @@
+.header {
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+}
+
+#mainNavbar .nav-link {
+    color: #333;
+}
+
+
+#mainNavbar .nav-link:hover {
+    color: rgb(171, 171, 171);
+}
+
+.fab:hover {
+    color: rgb(199, 199, 199);
+}
+
+#main-container {
+    margin-top: 100px;
+    padding: 0 100px;
+    
+}
+
+/* Card Design */
+/* .item {
+    width: 310px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 5px 6px 8px 4px rgba(34, 25, 25, .4);
+    
+} */
+
+.card {
+    background-color: #fff;
+    box-shadow: 4px 4px 8px 0px rgba(94, 94, 94, 0.4);
+}
+
+.card:hover {
+    box-shadow: 0 1px 5px rgba(34, 25, 25, .8);
+    -moz-box-shadow: 0 1px 5px rgba(34, 25, 25, .8);
+    -webkit-box-shadow: 0 1px 5px rgba(34, 25, 25, .8);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#979797, direction=135, strength=3);
+    }
+}
+/*  End of Card Design */
+
+
