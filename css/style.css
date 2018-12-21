@@ -56,7 +56,28 @@ a:hover {
     -webkit-box-shadow: 0 1px 5px rgba(34, 25, 25, .8);
     filter: progid:DXImageTransform.Microsoft.Shadow(color=#979797, direction=135, strength=3); 
 }
-/*  End of Card Design */
+
+/* Single Photo */
+
+.photo-title {
+    margin-bottom: 20px;
+}
+
+/* Side Bar  */
+
+.list-group {
+    padding-left: 100px;
+}
+
+.list-group-item {
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+}
+
+p.list-group-item {
+    font-weight: 500;
+}
+
 
 /* Section Footer  */
 
@@ -66,7 +87,18 @@ a:hover {
     text-align: center;
 }
 
+/* Media Query */
 
+@media screen and (max-width: 768px) {
+    .list-group {
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 425px) {
+    #footer {
+        padding: 0 50px;
+    }
+}
 
 @media screen and (max-width: 375px) {
     #card-style {
