@@ -1,0 +1,55 @@
+/* Single Photo */
+#main-container {
+    padding: 0 30px;
+}
+
+.photo-title {
+    margin-bottom: 20px;
+}
+
+/* Side Bar  */
+
+.list-group {
+    padding-left: 100px;
+}
+
+.list-group-item {
+    border: 0;
+}
+
+p.list-group-item {
+    font-weight: 500;
+}
+
+/* Media Query */
+
+
+@media screen and (max-width: 768px) {
+    .list-group {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #main-container {
+        padding: 0 20px;
+    }
+
+    .photo-title {
+        font-size: 20px;
+    }
+
+    .photo-text {
+        font-size: 14px;
+    }
+
+    #footer p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #main-container {
+        padding: 0 5px;
+    }
+}
