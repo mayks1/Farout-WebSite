@@ -29,6 +29,12 @@ a:hover {
     color: rgb(171, 171, 171);
 }
 
+.navbar-toggler {
+        position:fixed;
+            top: 10px;
+            right: 10px;
+        }
+
 .fab:hover {
     color: rgb(199, 199, 199);
 }
