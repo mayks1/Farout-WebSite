@@ -74,6 +74,18 @@ a:hover {
     font-size: 12px;
 }
 
+/* About Page  */
+
+.img_about {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.empty_space {
+    height: 100px;
+}
+
 /* Media Query */
 @media screen and (max-width: 1024px) {
     #main-container {
