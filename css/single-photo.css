@@ -7,6 +7,9 @@
     margin-bottom: 20px;
 }
 
+.photo-text {
+    text-align: justify;
+}
 /* Side Bar  */
 
 .list-group {
